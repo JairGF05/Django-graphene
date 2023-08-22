@@ -91,6 +91,5 @@ class Mutation(graphene.ObjectType):
 #Agregar tambien la mutacion al schema
 schema = graphene.Schema(query=Query, mutation=Mutation)
 
-
     # def resolve_hello(self, info):
     #     return "World"
